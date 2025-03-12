@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <title>Youtube</title>
+    </head>
+    <style>
+         @media only screen and (min-width:768px) {
+            body {
+                background-color: rgb(250, 120, 120);
+                text-align: center;
+                color: white;
+            }
+            h1 {
+                font-size: 50px;
+                font-family: Arial, sans-serif;
+            }
+            button {
+                font-size: 20px;
+                padding: 400px 800px;
+                background-color: red;
+                color: white;
+                border: none;
+                cursor: pointer;
+                
+                font-size: 90px;
+                border-radius: 50px;
+            }
+            button:hover {
+                background-color: darkred;
+            }
+        }
+    </style>
+    <body>
+        <h1>TAP ME!</h1>
+        <button onclick="document.getElementById('audio').play()">Play</button>
+        <audio id="audio" loop autoplay>
+            <source src="FUNNY MOANING SOUND.mp3" type="audio/mpeg">
+            Your browser deos not support the audio element.
+    </body>
+</html>
