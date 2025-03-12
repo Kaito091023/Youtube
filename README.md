@@ -1,1 +1,1 @@
-# Youtube-funny-videos
+# Youtube/funny-videos
